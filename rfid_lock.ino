@@ -57,7 +57,7 @@ void dump_byte_array(byte *buffer, byte bufferSize) {
 void open_lock() {
 
   digitalWrite(lock, HIGH);
-  delay(2000);
+  delay(3000);
   digitalWrite(lock,LOW);
   
  
